@@ -18,9 +18,9 @@ public class MyActivity04 {
 			size = kb.nextInt();
 		}
  
-		int radonRange = 100; //random number range:0-99
+		int radomRange = 100; //random number range:0-99
 		
-		int[] myarr1 = randomIntArray(size, radonRange);
+		int[] myarr1 = randomIntArray(size, radomRange);
 
 		System.out.println("please input the number you want to remove:");
 		int num = kb.nextInt();
